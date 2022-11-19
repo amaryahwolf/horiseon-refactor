@@ -16,6 +16,19 @@ header {
     color: #ffffff;
 }
 
+/*changed .footer to element selector footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*changed .footer h2 to element selector footer*/
+footer h2 {
+    font-size: 20px;
+}
+
 /*changed .header h1 to element selector h1*/
 h1 {
     display: inline-block;
@@ -194,13 +207,4 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h2 {
-    font-size: 20px;
-}
