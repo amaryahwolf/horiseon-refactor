@@ -16,14 +16,6 @@ header {
     color: #ffffff;
 }
 
-/*changed .footer to element selector footer*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
 /*changed .header h1 to element selector h1*/
 h1 {
     display: inline-block;
@@ -45,7 +37,6 @@ h4 {
     font-size: 20px;
 }
 
-
 /*changed header .div to element selector nav*/
 nav {
     padding-top: 15px;
@@ -55,13 +46,13 @@ nav {
     font-size: 20px;
 }
 
-/*changed .header div ul to element selector nav ul*/
-nav ul {
+/*changed .header div ul to element selector ul*/
+ul {
     list-style-type: none;
 }
 
-/*changed .header div ul li to element selector nav ul li*/
-nav ul li {
+/*changed .header div ul li to element selector li*/
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -75,6 +66,14 @@ p {
     font-size: 16px;
 }
 
+/*changed .footer to element selector footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -82,6 +81,30 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-blocks {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-blocks img {
+    max-height: 200px;
+}
+
+.content-blocks h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -92,12 +115,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -114,6 +131,12 @@ p {
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
+}
+
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* removed these class selectors and created one class selector .benefit-section since they all had the same properties
@@ -145,11 +168,6 @@ p {
     text-align: center;
 }*/
 
-.benefit-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 /* removed these class selectors and created one class selector .benefit-section img
 
@@ -164,15 +182,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }*/
-
-.content-blocks {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 /* removed these selectors and created one class selector .content-blocks
 
@@ -194,9 +203,6 @@ p {
     color: #ffffff;
 }*/
 
-.content-blocks img {
-    max-height: 200px;
-}
 
 /* removed these selectors and created one class selector .content-blocks img
 
@@ -208,10 +214,6 @@ p {
     max-height: 200px;
 }*/
 
-.content-blocks h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* removed these selectors and created one class selector .content-blocks h2
 
