@@ -30,11 +30,11 @@
     <!--added main element to contain the bulk content of the page-->
     <main>
       <!--can i change div to semantic html? tried changing it to <img>.. is this a pseudo element? added alt text; how do you check if alt text works?-->
-      <div class="hero" alt="Group of team members overlooking mockups"></div>
+      <figure class="hero" alt="Group of team members overlooking mockups"></figure>
       <!--thought about changing div to section but not sure..-->
       <div class="content">
-        <!--definitely want to change div to section because it contains h2-->
-        <section class="search-engine-optimization">
+        <!--definitely want to change div to section because it contains h2; added id to attach id in the nav bar to the section-->
+        <section id="search-engine-optimization" class="content-blocks">
             <!--added alt text-->
           <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Workspace with a laptop, coffee cup, cup filled with pens, and a notebook about SEO"/>
           <h2>Search Engine Optimization</h2>
@@ -46,7 +46,7 @@
           </p>
         </section>
         <!--definitely want to change div to section because it contains h2-->
-        <section id="online-reputation-management" class="online-reputation-management">
+        <section id="online-reputation-management" class="content-blocks">
             <!--added alt text-->
           <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Person working at a laptop with a reputation chart on the screen, a water cup to the side and a phone in the corner"/>
           <h2>Online Reputation Management</h2>
@@ -59,7 +59,7 @@
           </p>
         </section>
         <!--definitely want to change div to section because it contains h2-->
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" class="content-blocks">
             <!--added alt text-->
           <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Team members working at a table filled with various icons representing social media"/>
           <h2>Social Media Marketing</h2>
@@ -74,7 +74,7 @@
 
       <div class="benefits">
         <!--changed div to section-->
-        <section class="benefit-lead">
+        <section class="benefit-section">
           <h3>Lead Generation</h3>
           <!--added alt text-->
           <img src="./assets/images/lead-generation.png" alt="Funnel with a down-pointing arrow, with a gear going into the funnel and a coin coming out of the funnel" />
@@ -84,7 +84,7 @@
           </p>
         </section>
         <!--changed div to section-->
-        <section class="benefit-brand">
+        <section class="benefit-section">
           <h3>Brand Awareness</h3>
           <!--added alt text-->
           <img src="./assets/images/brand-awareness.png" alt="Top half of a body wearing a tea with a lightbulb radiating light as the head"/>
@@ -94,7 +94,7 @@
           </p>
         </section>
         <!--changed div to section-->
-        <section class="benefit-cost">
+        <section class="benefit-section">
           <h3>Cost Management</h3>
           <!--added alt text-->
           <img src="./assets/images/cost-management.png" alt="A gear in the background with three circles with dollar sides in front of the gear"/>
@@ -109,7 +109,8 @@
 
     <!--changed div to semantic HTML footer and removed "footer" class-->
     <footer>
-      <h2>Made with ❤️️ by Horiseon</h2>
+        <!--changed h2 to h4-->
+      <h4>Made with ❤️️ by Horiseon</h4>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
 
