@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/*changed .header to element selector header*/
+/*changed .header to element selector header;
+creates styling for the header including the navigation bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +17,8 @@ header {
     color: #ffffff;
 }
 
-/*changed .header h1 to element selector h1*/
+/*changed .header h1 to element selector h1;
+creates styling for the content in h1*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,7 +39,8 @@ h4 {
     font-size: 20px;
 }
 
-/*changed header .div to element selector nav*/
+/*changed header .div to element selector nav;
+creates styling for the navigation bar*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,22 +49,26 @@ nav {
     font-size: 20px;
 }
 
-/*changed .header div ul to element selector ul*/
+/*changed .header div ul to element selector ul;
+removes any list styling for the navigation bar*/
 ul {
     list-style-type: none;
 }
 
-/*changed .header div ul li to element selector li*/
+/*changed .header div ul li to element selector li;
+adds styling to the list by making them inline and moving them away from the edge of the page*/
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*creates styling for the anchors (links) within the navigation menu*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*changes the font size for the content within each paragraph element*/
 p {
     font-size: 16px;
 }
@@ -74,6 +81,7 @@ footer {
     text-align: center;
 }
 
+/*styling for content within the first background image seen on the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -83,6 +91,7 @@ footer {
     background-position: center;
 }
 
+/*rows 94-127 create styling for the three main content bars on the page*/
 .content {
     width: 75%;
     display: inline-block;
@@ -117,6 +126,7 @@ footer {
     margin-left: 25px;
 }
 
+/*rows 129-150 create styling for the block to the right of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
